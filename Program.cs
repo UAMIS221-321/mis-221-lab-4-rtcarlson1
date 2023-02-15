@@ -14,6 +14,10 @@ while(decision != 3)
     {
         GetPartial(height);
     }
+    else
+    {
+        System.Console.WriteLine("Invalid input!");
+    }
 
 
 
@@ -64,6 +68,10 @@ static void GetPartial(int height)
             if(broken == 0)
             {
                 System.Console.Write("o ");
+            }
+            else
+            {
+                System.Console.Write("  ");
             }
         }
         System.Console.WriteLine("");
